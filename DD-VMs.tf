@@ -3,10 +3,12 @@
  *
  */
  
+variable "server-pass" {}
+
 resource "ddcloud_server" "dd_svr_jum_01" {
   name                 = "dd_svr_jum_01"
   description          = "This is my DevOps test server."
-  admin_password       = "password"
+  admin_password       = "${var.server-pass}"
 
   memory_gb            = 8
   cpu_count            = 2
