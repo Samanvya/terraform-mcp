@@ -1,5 +1,5 @@
 /*
- * This configuration will create a Cloud Server & NAT
+ * This configuration will create a Cloud Server
  *
  */
  
